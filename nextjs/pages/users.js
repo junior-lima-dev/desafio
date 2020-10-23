@@ -11,7 +11,7 @@ const User = ( { users } ) => (
         </Head>
 
         <header>
-                <h1>Lista de usuários do GitHub</h1>
+                <h1>List GitHub Users</h1>
         </header>
         <ul>
             { users.map( user => (
